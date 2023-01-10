@@ -1,0 +1,36 @@
+body{ 
+    background-color: rgb(162, 205, 192) ;
+    background-image: url();
+}
+a{
+    text-decoration: none;
+    color:black;
+    font-size: 1.5em;
+    margin-bottom: 5px;
+    border: 2px solid black;
+    padding: 5px;
+    background-image:linear-gradient(gray, white);
+   
+}
+h1{
+    color:red;
+    font-size: 30px;
+    margin-bottom: 35px;
+    text-align: center;
+}
+p{
+    font-size: 1.25cm;
+    margin-top: 35px;
+    line-height: 1.5cm;
+}
+img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+  }
+  
+
+div{
+    text-align: center;
+}
