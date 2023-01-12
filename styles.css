@@ -43,7 +43,16 @@ img {
   }
   
 /* division */
-div{
+div1{
+    text-align: center;
+    color: blue;
+    line-height: 2.5cm;
+    width: 600px;
+    border: 2cm;
+    padding: 50px;
+    margin: 20px;
+}
+div2{
     text-align: center;
     color: blue;
     line-height: 2.5cm;
