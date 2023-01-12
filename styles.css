@@ -1,17 +1,26 @@
 body{ 
     background-color: rgb(162, 205, 192) ;
-    background-image: url();
+    background-image: url(BABC-FISH.png);
+    background-size: 25%;
 }
+
 a{
     text-decoration: none;
     color:black;
     font-size: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+
     margin-bottom: 5px;
     border: 2px solid black;
-    padding: 5px;
+    padding: 4px;
     background-image:linear-gradient(gray, white);
+    margin: 0 auto;
+    display: block;
+    width: 10cm;
+    height: 20px;
    
 }
+
 h1{
     color:red;
     font-size: 30px;
@@ -21,16 +30,25 @@ h1{
 p{
     font-size: 1.25cm;
     margin-top: 35px;
-    line-height: 1.5cm;
+    
 }
 img {
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    padding: 5px;
-    width: 150px;
+    border: 1px solid rgb(12, 67, 101);
+    border-radius: 15px;
+    padding: 1x;
+    height: 150px;
+    width: 300px;
+    margin: 0 auto;
+    display: block;
   }
   
-
+/* division */
 div{
     text-align: center;
+    color: blue;
+    line-height: 2.5cm;
+    width: 600px;
+    border: 2cm;
+    padding: 50px;
+    margin: 20px;
 }
