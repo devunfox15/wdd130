@@ -1,0 +1,21 @@
+p,
+h1{
+    color: rgb(5, 5, 5)
+}
+h1:nth-child(1){
+    font: 300%;
+}
+.redText{
+    color:red
+}
+.bigText{
+    font-size: 85px;
+}
+#awesomeID {
+    background-color:pink;
+    color:blue;
+
+}
+.redText{
+    color: yellow;
+}

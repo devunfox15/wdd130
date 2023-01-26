@@ -1,0 +1,100 @@
+#content{
+    max-width: 1600px;
+    margin: 0 auto;
+}
+nav a{
+    text-align: center;
+    color: black;
+    text-decoration: none;
+}
+#hero-msg h1{
+    text-align: center;
+}
+
+#hero-msg h4{
+    text-align: center;
+}
+.button-box{
+    text-align: center;
+}
+main{
+    text-align: center;
+}
+section{
+    text-align: center;
+}
+#background{
+    height: 725px;
+    background-color: darkcyan;
+}
+/* Adding these elements to recieve a background color*/
+body{
+    background-color: rgb(142, 142, 191);
+}
+header {
+    background-color: antiquewhite;
+}
+nav a:hover{
+    background-color: beige;
+    color: black;
+}
+.book{
+    background-color: cornflowerblue;
+    color: black;
+    text-decoration: none;
+}
+.join{
+    background-color: cornsilk;
+    color: black;
+    text-decoration: none;
+}
+.book:hover{
+    background-color: whitesmoke;
+    color: black;
+}
+.join:hover{
+    background-color: aquamarine;
+    color: black;
+}
+.msg{
+    background-color: rgb(38, 38, 205);
+    color: black;
+}
+footer{
+    background-color: rgb(142, 142, 191);
+    color: black;
+}
+footer p {
+    font-size: 1.2em;
+}
+footer a{
+    color: black;
+    text-decoration: none;
+}
+footer p a:hover{
+    text-decoration:underline;
+}
+footer a:hover{
+    color: black;
+}
+.home-title{
+    color: black;
+}
+h4{
+    color: black;
+}
+.msg h2{
+    color: black;
+}
+.msg p{
+    color: black;
+}
+.logo {
+    width: 80px;
+}
+.icon{
+width: 80px
+}
+#hero-img{
+    width: 100%;
+}
