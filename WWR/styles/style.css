@@ -30,7 +30,7 @@ section{
     height: 725px;
     background-color: darkcyan;
 }
-/* Adding these elements to recieve a background color*/
+/* Adding these elements to recieve a background color       */
 body{
     background-color: rgb(142, 142, 191);
 }
