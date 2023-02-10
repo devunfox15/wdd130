@@ -68,6 +68,8 @@ nav a:hover{
 #hero{
     border: 1px solid;
     margin-bottom: 150px;
+    margin-left: 0px;
+    margin-right: 0px;
 }
 #hero-msg h1{
     text-align: center;
