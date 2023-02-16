@@ -1,0 +1,31 @@
+
+img{
+
+    max-width: 200px;
+    height:auto;
+    display: block;
+    margin: 0 auto;
+}
+body {
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+    background-color:#fca6c9
+    
+
+}
+#title:hover {
+    color: white;
+    text-align: center;
+  }
+  .black_color1{
+    color: black;
+    text-align: left;
+    font-weight: bold;
+    margin-left: 550px ;
+  
+  }
+  .black_color2{
+    color: black;
+    font-weight: bold;  
+  }

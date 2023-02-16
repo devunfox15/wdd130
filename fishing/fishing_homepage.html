@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BABC.Com</title>
+<link rel="stylesheet" href="./fishing_homepage.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cabin&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://www.fonts4free.net/" crossorigin>
+<link href="https://www.fonts4free.net/squealer-font.html">
+</head>
+<body>
+    <header >
+    <image class="logo" src ="./Squealer/babcdareredblk.png" style="width: 100%;"></image>
+    <a class="button" href="">Apparel</a>
+    <a class="button"   href="">Fishing Gear</a>
+    <a class="button"  href="">Our story</a>
+    <a class="button" href="">Join the Club</a>
+    <a class="button" href="">Events</a>
+    <a class="button" href="">Affliates></a>
+    <h1 >THE B.A.B.C.</h1>
+    </header>
+    <div>
+    <!-- in this Div we will make a slider for all the picture that i own -->
+        <div class="slideshow-container">
+            <div class="mySlides fade">
+              <div class="numbertext">1 / 3</div>
+              <img src="./Squealer/happy-day.png" style="width:100%">
+              <div class="text">Caption Text</div>
+            </div>
+            <div class="mySlides fade">
+              <div class="numbertext">2 / 3</div>
+              <img src="./Squealer/happy-day-2.png" style="width:100%">
+              <div class="text">Caption Two</div>
+            </div>
+            
+            <div class="mySlides fade">
+              <div class="numbertext">3 / 3</div>
+              <img src="./Squealer/happy-day-3.png" style="width:100%">
+              <div class="text">Caption Three</div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">3 / 3</div>
+                <img src="./Squealer/happy-day-4.png" style="width:100%">
+                <div class="text">Caption Three</div>
+              </div>
+              <div class="mySlides fade">
+                <div class="numbertext">3 / 3</div>
+                <img src="./Squealer/happy-day-5.png" style="width:100%">
+                <div class="text">Caption Three</div>
+              </div>
+              <div class="mySlides fade">
+                <div class="numbertext">3 / 3</div>
+                <img src="./Squealer/happy-day-6.png" style="width:100%">
+                <div class="text">Caption Three</div>
+              </div>
+              <a class="prev" onclick="plusSlides(-1)">previous</a>
+                <a class="next" onclick="plusSlides(1)">Next</a>
+    </div>
+    <script>
+        let slideIndex = 1;
+        showSlides(slideIndex);
+        
+        function plusSlides(n) {
+          showSlides(slideIndex += n);
+        }
+        
+        function currentSlide(n) {
+          showSlides(slideIndex = n);
+        }
+        
+        function showSlides(n) {
+          let i;
+          let slides = document.getElementsByClassName("mySlides");
+          let dots = document.getElementsByClassName("dot");
+          if (n > slides.length) {slideIndex = 1}    
+          if (n < 1) {slideIndex = slides.length}
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+          }
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";  
+          dots[slideIndex-1].className += " active";
+        }
+        </script>
+    <h2> </h2>
+   <footer>
+    <a class="button" href="./contact_page.html">Contact Us</a>
+   </footer>
+</body>
+</html>
