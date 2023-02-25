@@ -16,81 +16,50 @@
 </head>
 <body>
     <header >
-    <image class="logo" src ="./Squealer/babcdareredblk.png" style="width: 100%;"></image>
-    <a class="button" href="">Apparel</a>
-    <a class="button"   href="">Fishing Gear</a>
-    <a class="button"  href="">Our story</a>
-    <a class="button" href="">Join the Club</a>
-    <a class="button" href="">Events</a>
-    <a class="button" href="">Affliates></a>
-    <h1 >THE B.A.B.C.</h1>
+    <image class="logo" src ="./Squealer/babcdareredblk.png"></image>
+    <a class="button" id="apparel" href="./fishing-Apparel.html">Apparel</a>
+    <a class="button" id="fishing_gear"  href="./fishing-gear.html">Fishing Gear</a>
+    <a class="button" id="story" href="./fishing-our-story.html">Our story</a>
+    <a class="button" id="club" href="./fishing-join_the_club.html">Join the Club</a>
+    <image class="logo2" src ="./Squealer/rsz_babc.png"></image>"
     </header>
     <div>
-    <!-- in this Div we will make a slider for all the picture that i own -->
-        <div class="slideshow-container">
-            <div class="mySlides fade">
-              <div class="numbertext">1 / 3</div>
-              <img src="./Squealer/happy-day.png" style="width:100%">
-              <div class="text">Caption Text</div>
-            </div>
-            <div class="mySlides fade">
-              <div class="numbertext">2 / 3</div>
-              <img src="./Squealer/happy-day-2.png" style="width:100%">
-              <div class="text">Caption Two</div>
-            </div>
-            
-            <div class="mySlides fade">
-              <div class="numbertext">3 / 3</div>
-              <img src="./Squealer/happy-day-3.png" style="width:100%">
-              <div class="text">Caption Three</div>
-            </div>
-            <div class="mySlides fade">
-                <div class="numbertext">3 / 3</div>
-                <img src="./Squealer/happy-day-4.png" style="width:100%">
-                <div class="text">Caption Three</div>
-              </div>
-              <div class="mySlides fade">
-                <div class="numbertext">3 / 3</div>
-                <img src="./Squealer/happy-day-5.png" style="width:100%">
-                <div class="text">Caption Three</div>
-              </div>
-              <div class="mySlides fade">
-                <div class="numbertext">3 / 3</div>
-                <img src="./Squealer/happy-day-6.png" style="width:100%">
-                <div class="text">Caption Three</div>
-              </div>
-              <a class="prev" onclick="plusSlides(-1)">previous</a>
-                <a class="next" onclick="plusSlides(1)">Next</a>
-    </div>
-    <script>
-        let slideIndex = 1;
-        showSlides(slideIndex);
-        
-        function plusSlides(n) {
-          showSlides(slideIndex += n);
-        }
-        
-        function currentSlide(n) {
-          showSlides(slideIndex = n);
-        }
-        
-        function showSlides(n) {
-          let i;
-          let slides = document.getElementsByClassName("mySlides");
-          let dots = document.getElementsByClassName("dot");
-          if (n > slides.length) {slideIndex = 1}    
-          if (n < 1) {slideIndex = slides.length}
-          for (i = 0; i < slides.length; i++) {
-            slides[i].style.display = "none";  
-          }
-          for (i = 0; i < dots.length; i++) {
-            dots[i].className = dots[i].className.replace(" active", "");
-          }
-          slides[slideIndex-1].style.display = "block";  
-          dots[slideIndex-1].className += " active";
-        }
-        </script>
-    <h2> </h2>
+      <h2>
+        Welcome to the B.A.B.C. site!
+      </h2>
+      <h3>
+        Where you put your line for a deal and real in a steal!
+      </h3>
+      <img src="./Squealer/happy-day-5.png">
+      <br>
+      <h1>Catches of the month</h1>
+      <h3>Aubrey</h3>
+      <div>
+        <section class="text-box">
+          <p class="cabin">
+            Aubrey had always loved spending time on the lake, and fishing was her favorite activity. She had been out on the water for hours, casting her line and enjoying the peacefulness of the surroundings.
+
+As she reeled in her line for what felt like the hundredth time, she felt a sudden jerk at the end of her rod. Her heart raced as she tried to reel in the fish, which fought hard and put up a good fight.
+
+Finally, after several minutes of struggling, Aubrey caught a glimpse of her catch – a smallmouth bass that glimmered in the sun. It wasn't the biggest fish she had ever caught, but it was still a proud moment for her.
+
+She carefully removed the hook from the fish's mouth and held it up for a photo, feeling a sense of satisfaction and joy. Aubrey knew that she would remember this catch for years to come, and she couldn't wait to tell her friends and family about her successful day on the lake.
+
+As she released the fish back into the water, Aubrey felt a sense of gratitude for the beauty of nature and the opportunity to connect with it through fishing. She knew that she would be back on the lake soon, ready to catch even more fish and make even more memories.
+          </p>
+        </section>
+        <img src="./Squealer/happy-day-3.png">
+          <h1> Johnathon</h1>
+        <section class="text-box">
+          <p class="cabin">
+            John had always dreamed of catching a trophy fish, and his chance finally came on a sunny afternoon at the lake. He baited his hook with a juicy worm and cast his line into the water, waiting patiently for a bite.
+            Hours went by without any luck, and John was starting to lose hope. Just as he was about to give up and call it a day, he felt a sharp tug on his line. His heart raced as he reeled in the fish, which fought hard and put up a good fight.
+            Finally, after what felt like an eternity, John caught a glimpse of his catch – a massive rainbow trout that glimmered in the sun. He carefully pulled the fish onto his boat, feeling a sense of pride and accomplishment.
+            As he held the fish up for a photo, he couldn't help but smile. It was a moment he would never forget, and he knew that he would be telling the story of his epic catch for years to come.
+          </p>
+        </section>
+      </div>
+
    <footer>
     <a class="button" href="./contact_page.html">Contact Us</a>
    </footer>
