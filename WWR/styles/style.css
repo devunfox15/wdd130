@@ -76,7 +76,6 @@ nav a:hover{
 }
 #hero{
     border: 1px solid;
-    margin-top: -100px;
     margin-bottom: 150px;
     margin-left: 0px;
     margin-right: 0px;
@@ -246,6 +245,38 @@ main section img {
     grid-row: 5/8;
     box-shadow: 5px 5px 10px #6f7364;
 }
+/* page two tags */
+.holder{
+box-sizing: border-box;
+}
+.location{
+    margin-top: 100px;
+    height: 400px;
+    width: auto;
+}
+.large-text{
+    margin-top: -70px;
+    margin-bottom: 25px;
+    margin-left: 1800px;
+    text-align: center;
+}
+.text-box{
+    height: auto;
+    width: 33%;
+}
+.rates-box{
+    margin-left: 50px;
+    padding: 10px;
+    border-radius: 5%;
+    height: 600px;
+    width: 400px;
+    font: 30px sans-serif;
+    background-color: #eca952;
+}
+
+
+
+
 /* this is a media query do not add to the bottom of this */
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
