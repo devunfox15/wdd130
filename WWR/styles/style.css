@@ -261,17 +261,66 @@ box-sizing: border-box;
     text-align: center;
 }
 .text-box{
-    height: auto;
-    width: 33%;
+    margin-left: 20px;
 }
 .rates-box{
-    margin-left: 50px;
+    margin-top: -800px;
+    margin-left: 20px;
     padding: 10px;
     border-radius: 5%;
     height: 600px;
-    width: 400px;
+    width: 800px;
     font: 30px sans-serif;
     background-color: #eca952;
+    grid-row: 2/4;
+    grid-column: 1/3;
+}
+.grid-second-page{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    height: 2000px;
+    max-width: 1600px;
+    column-gap: 230px;
+}
+#question-answer-box-1{
+    margin-top: -750px;
+    width: 25%;
+    padding: 30px;
+    margin-left: 40%;
+
+    border: #eca952;
+}
+#question-answer-box-2{
+    margin-top: -1100px;
+    width: 25%;
+    margin-left: 70%;
+    padding: 30px;
+    border: #eca952;
+}
+#paragraph-box-1{
+margin-top: 100px;
+background-color: #7420f1;
+height: 350px;
+border-radius: 10px;
+}
+#paragraph-box-2{
+    margin-top: 100px;
+    background-color: #7420f1;
+    height: 350px;
+    border-radius: 10px;
+}
+#paragraph-box-3{
+    margin-top: 100px;
+    width: 500px;
+    height: 350px;
+    background-color: #7420f1;
+    border-radius: 10px;
+}
+
+#logo-lift{
+    margin-top: -1000px;
+    margin-left: 300px;
 }
 
 
