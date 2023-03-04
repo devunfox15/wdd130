@@ -253,6 +253,7 @@ box-sizing: border-box;
     margin-top: 100px;
     height: 400px;
     width: auto;
+    border-radius: 50px;
 }
 .large-text{
     margin-top: -70px;
@@ -270,7 +271,8 @@ box-sizing: border-box;
     border-radius: 5%;
     height: 600px;
     width: 800px;
-    font: 30px sans-serif;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40pt;
     background-color: #eca952;
     grid-row: 2/4;
     grid-column: 1/3;
@@ -302,20 +304,39 @@ box-sizing: border-box;
 margin-top: 100px;
 background-color: #7420f1;
 height: 350px;
-border-radius: 10px;
+border-radius: 50px;
+text-align: center;
+padding: 10px;
+border: 10px solid #eca952;
+width: 100%;
+transition: transform .5s;
+box-shadow: 5px 5px 10px #6f7364;
 }
 #paragraph-box-2{
     margin-top: 100px;
     background-color: #7420f1;
     height: 350px;
-    border-radius: 10px;
+    border-radius: 50px;
+    text-align: center;
+    padding: 10px;
+    border: 10px solid #eca952;
+    width: 100%;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364;
+
 }
 #paragraph-box-3{
     margin-top: 100px;
     width: 500px;
     height: 350px;
     background-color: #7420f1;
-    border-radius: 10px;
+    border-radius: 50px;
+    text-align: center;
+    padding: 10px;
+    border: 10px solid #eca952;
+    width: 100%;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364;
 }
 
 #logo-lift{
