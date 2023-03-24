@@ -94,3 +94,82 @@ grid-column: 5/6;
 club{
 grid-column: 6/7;
 }
+/* page 2 code: */
+.resize{
+  width: 45%;
+  height: auto;
+  float: left;
+  padding: 3px;
+  border: 15px white;
+  border-style: solid;
+  border-width: medium;
+}
+#page_2{
+  background-color: rgb(82, 19, 19);
+}
+.page_2_font{
+  color: black;
+  font-family: 'Cabin', sans-serif;
+  font-size: medium;
+}
+#page_2_h1_font{
+  color: black;
+  font-family: 'Cabin', sans-serif;
+  font-weight: normal;
+  margin-bottom: 100px;
+}
+.page_2_font_p2{
+  color: black;
+  font-family: 'Cabin', sans-serif;
+  font-size: 20pt;
+  grid-column: 2/4;
+  margin-left: 60px;
+}
+#h1_page_2{
+  margin-top: 30px;
+  font-family: 'squealer';
+  text-decoration: underline;
+}
+.page_2_P_font{
+  color: black;
+  font-family: 'Cabin', sans-serif;
+  font-size: 16pt;
+  padding: 10px;
+  margin-left: 10px;
+  width: 750px;  
+}
+.box_it{
+  margin-bottom: 100px;
+  height: 125px;
+  grid-column: 1/6;
+  background-color: antiquewhite;
+}
+.float_right_small{
+  max-height: 474px;
+  margin-left: 157px;
+  padding: 3px;
+  border: 15px white;
+  border-style: solid;
+  border-width: medium;
+}
+.holder{
+display: grid;
+height: auto;
+grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+margin-bottom: 100px;
+}
+/* the bottom img of page 2 */
+#fishing_line_adj{
+  display: block;
+  margin-block: auto;
+  margin-top: 100px;
+  margin-right: 70px;
+  grid-row: 3;
+  grid-column: 3/5;
+  width: 1250px;
+  height: auto;
+  padding: 3px;
+  border: 15px white;
+  border-style: solid;
+  border-width: medium;
+}
