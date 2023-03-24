@@ -146,8 +146,8 @@ grid-column: 6/7;
 }
 .float_right_small{
   height: 280px;
-  margin-top: 34px;
-  margin-left: 157px;
+  margin-top: 85px;
+  margin-left: 210px;
   padding: 3px;
   border: 15px white;
   border-style: solid;
@@ -170,6 +170,10 @@ margin-bottom: 100px;
   width: 436px;
   height: auto;
   padding: 3px;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  padding-left: 400px;
+  padding-right: 400px;
   border: 15px white;
   border-style: solid;
   border-width: medium;
