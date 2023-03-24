@@ -145,7 +145,8 @@ grid-column: 6/7;
   background-color: antiquewhite;
 }
 .float_right_small{
-  max-height: 474px;
+  height: 280px;
+  margin-top: 34px;
   margin-left: 157px;
   padding: 3px;
   border: 15px white;
