@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Squealer';
-    src: url("C:\Users\19362\code\wdd130\fishing\Squealer\squealer.ttf") format('truetype');
+    src: url("C:\Users\19362\code\wdd130\fishing\Squealer\squealer.ttf") format('truetype'); 
 }
 body{
     color: rgb(219, 22, 22);
@@ -74,7 +74,7 @@ header{
   margin-top: 87px;
   display: block;
   width: 140px;
-  height: 25px;
+  height: 45px;
   background: white;
   padding: 10px;
   border-radius: 10px;
