@@ -1,7 +1,3 @@
-@font-face {
-    font-family: 'Squealer';
-    src: url("C:\Users\19362\code\wdd130\fishing\Squealer\squealer.ttf") format('truetype'); 
-}
 body{
     color: rgb(219, 22, 22);
     font-size: 25px;
