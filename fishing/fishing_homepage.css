@@ -146,9 +146,13 @@ grid-column: 6/7;
 }
 .float_right_small{
   height: 280px;
-  margin-top: 85px;
-  margin-left: 210px;
+  margin-top: 38px;
+  margin-left: 201px;
   padding: 3px;
+  padding-top: 80px;
+  padding-bottom: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
   border: 15px white;
   border-style: solid;
   border-width: medium;
